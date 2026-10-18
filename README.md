@@ -1,54 +1,39 @@
-# Logistics Data Analysis --- Week 1
+# Week 3: Advanced Data Analysis and Visualization in Logistics
 
-## Project overview
+## Project Overview
 
-This project proposes a data science workflow for improving inventory
-planning in a small retail logistics operation. It focuses on demand
-exploration, forecasting, product segmentation, and inventory decision
-support.
+This project demonstrates exploratory data analysis and visualization
+using a hypothetical logistics dataset.
 
-## Contents
+## Objectives
 
--   `Week_1_Logistics_Strategic_Planning_Report.pdf` --- report for
-    review and sharing
--   `Week_1_Logistics_Strategic_Planning_Report.docx` --- editable
-    report source
+- Analyze shipment information using Python.
+- Calculate descriptive statistics.
+- Explore relationships between logistics variables.
+- Create visualizations using Matplotlib and Seaborn.
+- Interpret findings and suggest operational improvements.
 
-## Methods proposed
+## Tools Used
 
--   Data cleaning and exploratory data analysis with pandas
--   Demand forecasting using baseline methods and regression
--   Product segmentation using K-means clustering
--   Evaluation using Mean Absolute Error (MAE) and Weighted Absolute
-    Percentage Error (WAPE)
--   Reorder-point decision support when inventory and supplier lead-time
-    data are available
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
 
-## Public datasets
+## Visualizations
 
--   UCI Online Retail II:
-    https://archive.ics.uci.edu/dataset/502/online+retail+ii
--   UCI Daily Demand Forecasting Orders:
-    https://archive.ics.uci.edu/dataset/409/daily+demand+forecasting+orders
+1. Distribution of delivery times
+2. Distance versus transportation cost
+3. Average delivery time by transport mode
+4. Delivery time by traffic level
+5. Correlation heatmap
 
-## Important notes
+## Dataset
 
-This repository contains a strategic plan and illustrative code. The
-example code may require column-name adjustments for the selected
-dataset and should be tested before use. Inventory outcomes such as
-stockout rate cannot be calculated reliably without inventory and
-fulfilment records. No performance improvements are claimed unless they
-are measured and documented.
+The dataset is hypothetical and intended for educational purposes.
 
-## Academic integrity
+## Conclusion
 
-Review the report, personalize it with your own analysis and learning,
-run the code where possible, and follow your institution's policy on
-AI-assisted work. If required, disclose AI assistance rather than
-presenting generated material as entirely unaided work.
-
-## Suggested next step
-
-Add the dataset source and a notebook containing your own executed
-analysis, charts, model evaluation, and conclusions. Do not upload
-datasets unless their license permits redistribution.
+This project demonstrates how statistical analysis and visualization
+can help explore logistics performance and transportation costs.
